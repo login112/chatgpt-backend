@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.API_KEY || "GANTI_DENGAN_API_KEY_OPENAI";
+const API_KEY = process.env.API_KEY || "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";
 
 app.use(cors());
 app.use(express.json());
